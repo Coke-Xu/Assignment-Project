@@ -4,7 +4,7 @@ title:
 	echo "# Unix Workbench Assignment" > README.md
 
 date:
-	echo "## This file is modifed on" >> README.md
+	echo "This file is modifed on \n" >> README.md
 	date >> README.md
 
 num_line:guessinggame.sh
