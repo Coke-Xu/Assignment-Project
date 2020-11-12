@@ -1,8 +1,0 @@
-all: README.md
-
-README.md:
-	echo "# Unix Workbench Assignment" > README.md
-	echo "This file is modified on $(date)" >> README.md
-	cat guessinggame.sh | wc -l >> README.md
-	
-
