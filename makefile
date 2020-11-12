@@ -1,6 +1,10 @@
-README.md:
-	echo "# Unix Workbench Assignment" > README.md
-	echo "This file is modified on $(date)" >> README.md
-	echo "There are total $(cat guessinggame.sh | wc -l) lines in guessinggame.sh file" >> README.md
-	
+all: title date num_line
 
+title:
+	echo "# Unix Workbench Assignment" > README.md
+
+date:
+	echo "This file is modifed on $(date)" >> README.md
+
+num_line:guessinggame.sh
+	echo "There are $(wc -l guessinggame.sh) lines in guessinggame.sh" >> README.md
