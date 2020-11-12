@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #The use need to guess how many files are in the current directory
 #If answer is incorrect, a higher or lower reminder pop up and need to guess again
 #if answer is correct, congratulation and end game
